@@ -1,0 +1,43 @@
+secrets.h
+*.local.h
+config.h
+config.json
+shortcuts_api_post_update.md
+todo.md
+tut.md
+
+# Python config files with secrets
+software/api/config.py
+software/server/config.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Database files (temporary/cache)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+gh_cache.*
+
+# Data files (large)
+data.csv
+
+# Arduino build output
+build/
+.cache/
+*.bin
+*.elf
+*.hex
+*.map
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak

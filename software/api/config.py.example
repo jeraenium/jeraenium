@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+"""
+Configuration template for API server.
+Copy this to config.py and fill in your actual values.
+"""
+from pathlib import Path
+
+PORT = 6197
+CSV_PATH = Path("/path/to/data/data.csv")
+SQLITE_PATH = Path("/path/to/data/gh_cache.sqlite")
+
+# Optional: bind only to LAN IP (safer than 0.0.0.0)
+# BIND_HOST = "192.168.1.145"
+
+# Optional: require token in all requests (Shortcuts adds ?token=XXXX)
+# API_TOKEN = "change-me-to-a-long-random-string"
+
+# Optional: pretty JSON off by default for speed
+PRETTY_JSON = False
