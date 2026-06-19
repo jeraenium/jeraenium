@@ -5,7 +5,8 @@ config.json
 shortcuts_api_post_update.md
 todo.md
 tut.md
-.platformio-venv
+.platformio-venv/
+firmware/.platformio-venv/
 
 # Python config files with secrets
 software/api/config.py
