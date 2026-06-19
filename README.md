@@ -1,4 +1,3 @@
-````markdown
 # jeraenium
 
 **A living garden, greenhouse, sensor network, and design system for more intelligent, ecological, human-scale growing.**
