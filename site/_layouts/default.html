@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="site-title">Jeraenium</a>
+    <nav>
+      <a href="/reports/latest/">Latest report</a>
+      <a href="https://github.com/jeraenium/jeraenium">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>Jeraenium — greenhouse intelligence, careful observation, and humane AI.</p>
+  </footer>
+</body>
+</html>

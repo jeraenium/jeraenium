@@ -1,0 +1,21 @@
+title: Jeraenium
+description: A living greenhouse, garden, sensor, ecology, and humane-AI project.
+url: "https://jeraenium.com"
+
+markdown: kramdown
+
+collections:
+  reports:
+    output: true
+    permalink: /reports/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

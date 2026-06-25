@@ -43,3 +43,12 @@ build/
 *.log
 *.tmp
 *.bak
+
+# Jekyll build output
+site/_site/
+site/.jekyll-cache/
+site/.sass-cache/
+
+# Bundler/local Ruby stuff
+site/.bundle/
+site/vendor/
